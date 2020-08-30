@@ -21,7 +21,7 @@ function randomIndexGenerator(level) //x is no. of random numbers wanted
     //console.log("randomIndexGenerator()");
     var randomIndex=[];
     for(var x=0;x<level+1;x++){
-        randomIndex.push(Math.floor(Math.random()*3+1));
+        randomIndex.push(Math.floor(Math.random()*4));
     }
     return randomIndex;
 }
